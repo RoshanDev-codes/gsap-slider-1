@@ -1,0 +1,70 @@
+/* Inline Element */
+
+/* by Default a tags so whatever the anchor tags are by default they are inline element
+means they cant have top margin and bottom margin they do can have right and left margin but can't have top and bottom margin  */
+
+/* to give them top and bottom margin we can give them :- */
+
+a {
+  display: inline-block;
+}
+
+/* Now we can give top and bottom margin  */
+
+/* and if we want our p element which is by default block element want that to be appear in same line next to each other we can give inline block to p :- */
+
+p {
+  display: inline-block;
+}
+
+.slider {
+  perspective: 250px;
+  perspective-origin: 50% 100%;
+}
+
+/* perspective: 250px;
+
+This means: the distance between the camera/user and the 3D scene is about 250px.
+
+Smaller number = the camera is closer = stronger 3D effect.
+
+Bigger number = the camera is farther = weaker 3D effect.
+*/
+
+/* perspective-origin: 50% 100%;
+
+First value is X (horizontal):
+
+50% = the center of the container (not left, not right).
+
+Second value is Y (vertical):
+
+100% = the very bottom of the container.
+
+Meaning: you are viewing the 3D scene from the bottom-center,
+as if you are standing below and looking upward.
+*/
+
+/* Mentally:
+
+perspective = “how far is my eye?”
+
+perspective-origin = “from which point am I looking?”
+
+transform-style: preserve-3d = “treat my children in real 3D, don’t flatten them.”
+
+rotateX(45deg) = “tilt card backward.”
+
+translateZ(40px) = “bring card closer to my eyes.” */
+
+img {
+  object-fit: cover;
+}
+
+img {
+  object-fit: contain;
+}
+
+/* object-cover = fill the box, crop if needed.
+
+object-contain = fit inside the box, leave empty space if needed. */

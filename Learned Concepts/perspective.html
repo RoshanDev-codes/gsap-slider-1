@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Perspective</title>
+  </head>
+  <body class="m-0">
+    <div
+      class="min-h-screen bg-[#111] flex justify-center gap-30 items-center text-white"
+    >
+      <div
+        class="w-[300px] h-[300px] border border-[#444] [perspective:250px] [perspective-origin:50%_50%]"
+      >
+        <div
+          class="w-full h-full bg-[#fb4016] text-2xl flex justify-center items-center [transform-style:preserve-3d] [transform:rotatey(30deg)_translateZ(0px)]"
+        >
+          3D CARD
+        </div>
+      </div>
+
+      <div
+        class="w-[300px] h-[300px] border border-[#444] [perspective:250px] [perspective-origin:0%_0%]"
+      >
+        <div
+          class="w-full h-full bg-[#fb4016] text-2xl flex justify-center items-center [transform-style:preserve-3d] [transform:rotatey(10deg)_translateZ(0px)]"
+        >
+          3D CARD
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

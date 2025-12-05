@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/output.css" />
+    <title>GSap-1</title>
+  </head>
+  <body>
+    <nav
+      class="fixed w-full tracking-wider z-10 flex items-center text-sm uppercase px-[2rem] py-[2rem]"
+    >
+      <div class="flex-1 flex items-center">
+        <a href="#" class="px-4 py-2 rounded-md bg-base-500 text-base-100"
+          >Maison Verin</a
+        >
+      </div>
+
+      <div class="flex-[2] flex items-center justify-center gap-10">
+        <a href="#" class="px-4 py-2 rounded-md bg-base-200 text-base-100"
+          >Lookbook</a
+        >
+        <a href="#" class="px-4 py-2 rounded-md bg-base-200 text-base-100"
+          >Portrait Series</a
+        >
+        <a href="#" class="px-4 py-2 rounded-md bg-base-200 text-base-100"
+          >Studio General</a
+        >
+        <a href="#" class="px-4 py-2 rounded-md bg-base-200 text-base-100"
+          >Contact</a
+        >
+      </div>
+
+      <div class="flex-1 flex items-center justify-end">
+        <a href="#" class="px-4 py-2 rounded-md bg-base-200 text-base-100"
+          >Join Maison</a
+        >
+      </div>
+    </nav>
+
+    <div class="containery relative bg-base-400 w-full h-svh overflow-hidden">
+      <div class="slider w-full absolute h-svh overflow-hidden"></div>
+    </div>
+
+    <footer
+      class="fixed flex items-center justify-between bottom-0 w-full z-10 text-base-100 uppercase text-sm px-[3rem] py-[2rem]"
+    >
+      <p class="tracking-wider">Experiment 3 / Scroll_Powered Slider</p>
+      <p class="tracking-wider">Developed by Roshan</p>
+    </footer>
+
+    <!-- GSAP core -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap/dist/SplitText.min.js"></script>
+    <script>
+      gsap.registerPlugin(SplitText);
+    </script>
+
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
