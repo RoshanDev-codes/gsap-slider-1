@@ -1,23 +1,23 @@
 const slideData = [
   {
     title: "Lost Whisper",
-    image: "./images/slide-1.jpg",
+    image: "./images/slide-1-new.jpg",
   },
   {
     title: "Light Tension",
-    image: "./images/slide-2.jpg",
+    image: "./images/slide-2-new.jpg",
   },
   {
     title: "Dim Elegance",
-    image: "./images/slide-3.jpg",
+    image: "./images/slide-3-new.jpg",
   },
   {
     title: "Urban Dream",
-    image: "./images/slide-4.jpg",
+    image: "./images/slide-4-new.jpg",
   },
   {
     title: "Soft Dusk",
-    image: "./images/slide-5.jpg",
+    image: "./images/slide-5-new.jpg",
   },
 ];
 
